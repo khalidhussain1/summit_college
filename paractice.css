@@ -1,0 +1,10 @@
+.content > input
+{
+background-color: blue;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}

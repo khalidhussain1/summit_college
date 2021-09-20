@@ -1,0 +1,85 @@
+.check
+{
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+}
+.pre-reg-img
+{
+  width: 547px;
+}
+.wraper {
+    width: 700px;
+    margin-left: 210px;
+}
+.address-area
+{
+    margin-top: -84;
+}
+.form-head
+{
+    padding: 50px;
+    color: white;
+    height: 164px;
+    font-size: 42px;
+    background-color: darkgrey;
+}
+.form-head > p
+{
+    right: 0;
+    left: 0;
+    margin-left:42px;
+}
+.student-image
+{
+    background-color: darkgrey;
+    width: 194px;
+    padding: 26px;
+    margin-left: 455px;
+    margin-top: -127px;
+    height: 200px;
+
+}
+.student-image > img
+{
+    width: 100%;
+    height: 166px;
+    margin-left: 26px;
+    margin-top: -28px;
+}
+.table-wraper
+{
+  
+    width: 608px;
+    margin-left: 110px;
+}
+.image
+{
+    display: flex;
+    width: 609px;
+    margin-left: 110px;
+}
+#print-form
+{
+    left: 0;
+    right: 0;
+    float: right;
+    margin-right: 406px;
+    margin-top: 20px;
+}
+#form-head1
+{
+    width: 100%;
+    background-color: crimson;
+    padding: 30px;
+}\
+ /* input
+{
+    border: none;
+} */
+
+.main-form > input
+{
+    border: none;
+}
+}
