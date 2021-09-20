@@ -143,6 +143,12 @@ else{
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Registration Form </title>
+    <style>
+      .custom-file-label {
+    position: absolute;
+    top: 31px !important;
+}
+    </style>
   </head>
   <body>
 
@@ -172,31 +178,39 @@ else{
                       <?php } ?>
                         <div class="form-row">
                             <div class="form-group col-md-6">
+                            <label for="exampleInputEmail1" class="form-label">First Name</label></label>
                               <input id="Full Name" name="firstName" placeholder="First Name" class="form-control" type="text">
                             </div>
                             <div class="form-group col-md-6">
+                            <label for="exampleInputEmail1" class="form-label">Last Name</label></label>
                               <input type="text" class="form-control" id="inputEmail4" placeholder="Last  Name" name="lastName">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">B Form/CNIC</label></label>
                               <input id="B form/CNIC" name="bForm" placeholder="B Form/CNIC" class="form-control" type="text">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Matric Marks</label></label>
                               <input type="text" class="form-control" id="inputEmail4" placeholder="Matric Marks" name="matricMarks">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Obtained Marks </label></label>
                               <input id="Full Name"  placeholder="Obtained Marks" class="form-control" type="text" name="obtainedMarks">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Matric Roll No</label></label>
                               <input type="text" class="form-control" id="inputEmail4" placeholder="Matric Roll No." name="matricRoolNo">
                             </div>
                             <div class="form-group col-md-6">
+                            <label  class="form-label">Father Name</label></label>
                               <input id="Full Name" name="fatherName" placeholder="Father Name" class="form-control" type="text">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Father CNIC</label></label>
                               <input id="Full Name" name="fatherCnic" placeholder="Father CNIC" class="form-control" type="text" >
                             </div>
                             <div class="form-group col-md-3">
-
+                            <label for="exampleInputEmail1" class="form-label">Admission</label></label>
 <select id="inputState" class="form-control" name="admission">
 
   <option label="Admission"></option>
@@ -206,7 +220,7 @@ else{
 </select>
 </div>
                             <div class="form-group col-md-3" >
-
+                            <label for="exampleInputEmail1" class="form-label">Gender</label></label>
                                       <select id="inputState" class="form-control" name="gender">
                                        <option selected>Select Gender</option>
                                         <option value="male"> Male</option>
@@ -215,7 +229,7 @@ else{
                                       </select>
                             </div>
                             <div class="form-group col-md-3">
-
+                            <label for="exampleInputEmail1" class="form-label">Descipline</label></label>
                                       <select id="inputState" class="form-control" name="descipline">
                                         <option selected>Descipline</option>
                                         <option value="Fsc medical"> F.Sc (Medical)</option>
@@ -225,7 +239,7 @@ else{
                                       </select>
                             </div>
                             <div class="form-group col-md-3">
-
+                            <label for="exampleInputEmail1" class="form-label">Session</label></label>
                                       <select id="inputState" class="form-control" name="session">
                                         <option selected>Session</option>
                                         <option value="2021-2023">2021-2023</option>
@@ -234,7 +248,7 @@ else{
                                       </select>
                             </div>
                             <div class="form-group col-md-3">
-
+                            <label for="exampleInputEmail1" class="form-label">Subjects</label></label></label>
                                       <select id="inputState" class="form-control" name="subjects">
                                         <option selected>Subjects</option>
                                         <option value="subject1">Subject2 </option>
@@ -246,14 +260,17 @@ else{
 
                           </div>
                         <div class="form-row">
+                      
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Mobile No</label></label>
                                 <input id="Mobile No." name="mobileNo" placeholder="Mobile No." class="form-control" required="required" type="text">
                             </div>
                             <div class="form-group col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Whatsap No</label></label>
                                 <input id="Mobile No." name="whatsapNo" placeholder="Whatsap No." class="form-control" required="required" type="text">
                             </div>
                             <div class="form-group col-md-3">
-
+                            <label for="exampleInputEmail1" class="form-label">Blood Group</label></label>
                                       <select id="inputState" class="form-control" name="bloodGroup">
 
                                         <option label="Blood Group">Blood Group</option>
@@ -262,8 +279,9 @@ else{
                                       </select>
                             </div>
                             <div class="custom-file col-md-3">
+                            <label for="exampleInputEmail1" class="form-label">Blood Group</label></label>
                             <input type="file" class="custom-file-input" id="customFile" name="image">
-                           <label class="custom-file-label" for="customFile">Choose file</label>
+                           <label class="custom-file-label form-label" for="customFile">Choose file</label>
                             </div>
                             <div class="form-group col-md-12">
                                       <textarea id="comment" name="address" cols="40" rows="5" class="form-control" placeholder="Address Here!"></textarea>
