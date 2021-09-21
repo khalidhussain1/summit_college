@@ -158,6 +158,7 @@ else{
                                        <option selected>Gender</option>
                                         <option value="male"> Male</option>
                                         <option value="female"> Female</option>
+                                        <option value="female"> Other</option>
 
                                       </select>
                             </div>
