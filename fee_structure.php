@@ -301,7 +301,7 @@ echo $row['lastName'];
  <button type="submit" class="btn btn-success" onclick="showList()">Shoe Voucher List</button>
  </div> -->
 
-//fee plan end div 
+
 
 
 
@@ -321,7 +321,7 @@ echo $row['lastName'];
 
 
 <div class="container">
-  <div id="voucher-list" style="display:none">
+  <div id="voucher-list" style="">
 <table class="table">
   <thead>
     <tr>

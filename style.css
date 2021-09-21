@@ -4,3 +4,7 @@
     align-items: center;
     justify-content: center;
 }
+.custom-file-label {
+    position: absolute;
+    top: 31px !important;
+}
