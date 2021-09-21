@@ -253,6 +253,7 @@ else{
                                         <option selected>Subjects</option>
                                         <option value="subject1">Subject2 </option>
                                         <option value="subject2">Subject1 </option>
+                                        <option value="subject2">Subject1 </option>
 
                                       </select>
                             </div>
